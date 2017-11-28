@@ -30,6 +30,18 @@ a:hover {
   color: blue;
 }
 
+.social-nav {
+  margin-top: 15px;
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
+
+#github-icon {
+  width: 31px;
+  height: 31px;
+}
+
 #top-section {
   width: 100%;
   height: 800px;
@@ -66,6 +78,14 @@ h3 {
   height: 600px;
 }
 
+#skills {
+ padding-top: 60px;
+}
+
+#projects {
+  padding-top: 60px;
+}
+
 #bio-text {
   font-family: 'Open Sans', sans-serif;
   margin-top: 10px;
@@ -75,42 +95,16 @@ h3 {
 }
 
 #headshot {
-  padding-top: 40px;
   display: block;
-  margin: 0px auto 0px auto;
-  width: 320px;
-  height: 300px;
-  border-radius: 300px;
+  margin: 20px auto;
+  width: 250px;
+  height: 250px;
+  border-radius: 200px;
 }
 
 #divider {
   background: url("./images/board.jpg") no-repeat center center fixed;
   height: 250px;
-}
-
-.social-nav {
-  margin-top: 15px;
-  display: flex;
-  width: 100%;
-  justify-content: center;
-}
-
-*/ #twitter-icon {
-  width: 29px;
-  height: 29px;
-}
-
-#github-icon {
-  width: 31px;
-  height: 31px;
-}
-
-*/ #skills {
-  padding-top: 60px;
-}
-
-#projects {
-  padding-top: 60px;
 }
 
 #sect2 {
@@ -125,6 +119,15 @@ h3 {
   color: #2b2a2a;
   padding-bottom: 10px;
   border-bottom: 1px solid #D61930;
+}
+
+h4 {
+  font-family: 'Open Sans', sans-serif;
+  text-align: center;
+  font-size: 30px;
+  font-weight: lighter;
+  word-spacing: 40px;
+  margin-top: 20px;
 }
 
 #soft-skills {
@@ -239,4 +242,99 @@ hr {
   display: block;
   margin: 10px auto;
   width: 50px;
+}
+
+
+
+/*<<<<<Mobile>>>>>>*/
+
+@media screen and (max-width: 647px) {
+
+    .nav-links {
+    font-size: 13px;
+  }
+
+
+  #top-section {
+    background: url("./images/ironman.jpg") no-repeat center center scroll;
+  }
+
+  #top-heading {
+    font-size: 60px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  h3 {
+    font-size: 20px;
+  }
+
+  #bio-text {
+    font-size: 18px;
+    line-height: 28px;
+    padding: 20px;
+  }
+
+  #sect1 {
+    height: 600px;
+  }
+
+  .sect-heading {
+    font-size: 50px;
+  }
+
+  #sect2 {
+    height: 400px;
+  }
+
+  h4 {
+    font-size: 12px;
+    word-spacing: 18px;
+    line-height: 30px;
+  }
+
+  #divider {
+    background: url("./images/board.jpg") no-repeat center center scroll;
+  }
+
+  #soft-skills {
+    font-size: 12px;
+    line-height: 30px;
+  }
+
+  .row {
+    display: block;
+  }
+
+  .desc {
+    width: 100%;
+    height: 150px;
+  }
+
+  .preview {
+    width: 100%;
+    height: 400px;
+    padding-top: 120px;
+    margin-bottom: -50px;
+  }
+
+  .preview.one {
+    margin-top: 40px;
+  }
+
+  .preview.three{
+    background: url("./images/board.jpg") no-repeat center center scroll;
+  }
+
+  .desc.last {
+    height: 220px;
+  }
+
+  #contact-heading {
+    font-size: 30px;
+  }
+
+  #bottom-aside {
+    padding-bottom: 40px;
+  }
 }
